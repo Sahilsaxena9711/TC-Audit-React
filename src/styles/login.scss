@@ -1,0 +1,48 @@
+.login-view{
+    .login h1,.register h1{
+        text-align: center;
+        padding: 20px 0;
+        transition: .6s;
+    }
+    .f-left{
+        float: left;
+    }
+    .form{
+        padding: 20px 10vw 10px 10vw;
+        text-align: center;
+    }
+    .loadCenter{
+        margin-top: 30vh;
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+.modalClass{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+}
+
+.m-top-25{
+    margin-top: 4vh;   
+}
+
+.z-i-1100{
+    z-index: 1100;
+}
+
+.navImage{
+    vertical-align: unset;
+    width: 90px;
+    height: 35px;
+}
+.tableResponsive{
+    overflow: auto;
+}
+.tableResponsive table{
+    margin-bottom: 0px;
+}
+
+.pointerEvent{
+    cursor: pointer;
+}

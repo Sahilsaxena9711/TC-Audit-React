@@ -1,0 +1,23 @@
+@import 'base';
+@import '~bootstrap/scss/bootstrap.scss';
+@import './header';
+@import './login';
+@import './profile';
+@import './explore';
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
